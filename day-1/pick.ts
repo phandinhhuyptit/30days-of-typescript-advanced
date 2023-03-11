@@ -12,3 +12,9 @@ const user: PickClone<User, "address" | "age"> = {
   address: "1234",
   age: 1,
 };
+const user2: PickClone<User, "address" | "age"> = {
+    address: "1234",
+    age: 1,
+    name: "hello",
+  };
+  
